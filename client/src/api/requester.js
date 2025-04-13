@@ -1,4 +1,4 @@
- async function request(method, url, data) {
+async function requester(method, url, data) {
   const options = {};
 
   if (method !== "GET") {
@@ -17,8 +17,7 @@
   const result = response.json();
 }
 
-
-export const get = request.bind(null, 'GET');
-export const post = request.bind(null, 'POST');
-export const put = request.bind(null, 'PUT');
-export const del = request.bind(null, 'DELETE');
+export const get = requester.bind(null, "GET");
+export const post = requester.bind(null, "POST");
+export const put = requester.bind(null, "PUT");
+export const del = requester.bind(null, "DELETE");

@@ -1,0 +1,26 @@
+{
+    "1c83fdd6-794e-48af-aa9c-47b6b6068cc5": {
+        "titel": "MineCraft",
+        "category": "Action",
+        "maxlevel": "20",
+        "imageUrl": "./images/MineCraft.png",
+        "sumary": "Set in a world where fantasy creatures live side by side with humans. A human cop is forced to work with an Orc to find a weapon everyone is prepared to kill for. Set in a world where fantasy creatures live side by side with humans. A human cop is forced to work with an Orc to find a weapon everyone is prepared to kill for.",
+        "_id": "1c83fdd6-794e-48af-aa9c-47b6b6068cc5"
+    },
+    "e6f3adca-ba42-4010-8b77-759ad32e37e4": {
+        "titel": "Zombie lang",
+        "category": "Action",
+        "maxlevel": "15",
+        "imageUrl": "./images/ZombieLang.png",
+        "sumary": "Set in a world where fantasy creatures live side by side with humans. A human cop is forced to work with an Orc to find a weapon everyone is prepared to kill for. Set in a world where fantasy creatures live side by side with humans. A human cop is forced to work with an Orc to find a weapon everyone is prepared to kill for.",
+        "_id": "e6f3adca-ba42-4010-8b77-759ad32e37e4"
+    },
+    "b788b009-796d-4f96-8d59-90b7fa137910": {
+        "titel": "Cover Fire",
+        "category": "Action",
+        "maxlevel": "10",
+        "imageUrl": "./images/CoverFire.png",
+        "sumary": "Set in a world where fantasy creatures live side by side with humans. A human cop is forced to work with an Orc to find a weapon everyone is prepared to kill for. Set in a world where fantasy creatures live side by side with humans. A human cop is forced to work with an Orc to find a weapon everyone is prepared to kill for.",
+        "_id": "b788b009-796d-4f96-8d59-90b7fa137910"
+    }
+}
