@@ -51,7 +51,7 @@ export default function GameDetails() {
           <h2>Comments:</h2>
           <ul>
             {/* <!-- Display paragraph: If there are no games in the database --> */}
-            {Object.key(game.comments || {}).length > 0 ? (
+            {Object.keys(game.comments || {}).length > 0 ? (
               Object.values(game.comments).map((comment) => (
                 <li key={comment._id} className="comment">
                   <p>

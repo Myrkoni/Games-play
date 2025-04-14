@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import gamesAPI from "../../api/games-api";
+import LatestGame from "./latestGame/LatestGame";
+
 
 export default function Home() {
   const [latestGames, setLatestGames] = useState([]);
@@ -22,7 +24,7 @@ export default function Home() {
         <h1>Latest Games</h1>
 
         {latestGames.length > 0 
-        ? latestGames.map(game => <latestGames key={game._id} {...game}/>)
+        ? latestGames.map(game => <LatestGame key={game._id} {...game}/>)
         :<p className="no-articles">No games yet</p>
         }
         
