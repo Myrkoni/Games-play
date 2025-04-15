@@ -1,4 +1,4 @@
-import requester, { get } from "./requester";
+import requester from "./requester";
 
 const BSE_URL = "http://localhost:3030/jsonstore/games";
 
