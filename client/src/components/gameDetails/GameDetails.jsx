@@ -14,7 +14,7 @@ export default function GameDetails() {
       const result = await gamesAPI.getOne(gameId);
       setGame(result);
     })();
-  });
+  }, {});
 
   const comentSubmutHandler = async (e) => {
     e.preventDefault();
